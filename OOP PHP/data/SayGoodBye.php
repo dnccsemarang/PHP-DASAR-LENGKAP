@@ -45,12 +45,20 @@ class ParentPerson {
     }
 }
 
-class Person extends ParentPerson {
+
+trait All {
     use SayGoodBye, SayHello,HasName,CanRun ;
-    // {
-    //     hello as private ;
-    //     goodBye as private;
-    // }
+
+}
+
+class Person extends ParentPerson {
+    // use SayGoodBye, SayHello,HasName,CanRun ;
+    // // {
+    // //     hello as private ;
+    // //     goodBye as private;
+    // // }
+
+    use All ;
     public function run(): void {
         echo "Person $this->name is Running";
     }

@@ -20,6 +20,8 @@ trait B {
     }
 }
 
+
+
 class Sample {
     use A,B {
         A::doA insteadof B;
