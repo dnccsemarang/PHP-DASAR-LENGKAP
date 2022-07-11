@@ -1,0 +1,25 @@
+{
+    "name": "rizdev/belaar-php-composer",
+    "description": "belajar php composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rizki Darmawan",
+            "email": "rizkidarmawan.0402102@gmail.com"
+        }
+    ],
+    "scripts": {
+        "jalankan-server" : "php -S localhost:8080",
+        "hello" : "echo 'Hello world'"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "rizkidardev/belajar-php-composer-hello" : "2.0.0",
+        "monolog/monolog": "2.2.0"
+    }
+}
