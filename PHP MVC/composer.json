@@ -1,0 +1,28 @@
+{
+    "name": "rizdev/belajar-php-mvc",
+    "description": "Php MVC",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rizki Darmawan",
+            "email": "rizkidarmawan.0402102@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "rizdev\\Belajar\\PHP\\MVC\\": "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rizdev\\Belajar\\PHP\\MVC\\": "tests"
+        }
+    }
+
+}

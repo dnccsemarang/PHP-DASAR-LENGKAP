@@ -1,0 +1,11 @@
+<phpunit color="true" verbose="true">
+    <testsuite>
+        <testsuite name="all">
+            <directory>tests</directory>
+        </testsuite>
+        <testsuite name="product">
+            <directory>tests/ProductServiceTest.php</directory>
+            <directory>tests/ProductServiceMockTest.php</directory>
+        </testsuite>
+    </testsuite>
+</phpunit>
