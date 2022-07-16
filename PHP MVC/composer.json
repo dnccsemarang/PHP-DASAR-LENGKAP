@@ -21,7 +21,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "rizdev\\Belajar\\PHP\\MVC\\": "tests"
+            "rizdev\\Belajar\\PHP\\MVC\\": "test"
         }
     }
 
